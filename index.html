@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tema CSS</title>
+    <style>
+      body {
+        background-image: radial-gradient(
+          ellipse at bottom,
+          #29aa8e,
+          transparent
+        );
+
+        background-attachment: fixed;
+        font-family: "Lora", serif;
+        margin: 0;
+      }
+
+      .container {
+        background-color: rgba(10, 130, 100, 0.2);
+        width: 100ch;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        margin-block-start: 2rem;
+        margin-block-end: 2rem;
+        border-radius: 1rem;
+        padding: 1rem 2rem;
+        min-height: calc (100vh- 4rem);
+        box-sizing: border-box;
+      }
+      .page-title {
+        margin-block-start: 0;
+        margin-block-end: 1rem;
+        font-family: "PT Serif", serif;
+        font-style: italic;
+      }
+
+      .menu {
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+      }
+      .menu-item {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        border-inline-end: 0.4em solid black;
+        padding: 0.75em 2em;
+        border-radius: 2em;
+        text-transform: uppercase;
+      }
+      .menu-item.active {
+        background-color: rgb(12, 179, 165);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Larisa Stanus</h1>
+      <nav class="menu">
+        <a href="#acasa" class="menu-item active">
+          Acasa
+        </a>
+        <a href="#servicii" class="menu-item">
+          Servicii
+        </a>
+        <a href="#contact" class="menu-item">
+          Contact
+        </a>
+      </nav>
+      <main class="free area">
+        <a>
+          <image class="resize">
+            <image src="turquoise restaurant.jpg"; img width="500px"; img
+            height="500px";
+          </image>
+        </a>
+      </main>
+    </div>
+  </body>
+</html>
